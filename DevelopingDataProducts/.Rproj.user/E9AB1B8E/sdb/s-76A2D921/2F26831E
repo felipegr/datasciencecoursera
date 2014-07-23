@@ -1,0 +1,16 @@
+{
+    "contents" : "## Felipe Godoi Rosario\n## 23/07/2014\n\nlibrary(shiny)\nshinyUI(pageWithSidebar(\n  headerPanel(\"1920's cars breaking distance vs. speed\"),\n  sidebarPanel(\n    sliderInput('UIspeed', 'Set the speed', value = 15, min = 5, max = 25, step = 1,)\n  ),\n  mainPanel(\n    plotOutput('newPlot')\n  )\n))\n",
+    "created" : 1406156877385.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1616042291",
+    "id" : "2F26831E",
+    "lastKnownWriteTime" : 1406155195,
+    "path" : "C:/Felipe Rosário/Github/datasciencecoursera/DevelopingDataProducts/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
